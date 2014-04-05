@@ -34,7 +34,7 @@ header nav {
 
 header nav ul {
 	list-style:none;
-	word-spacing: 40px;
+	word-spacing: 35px;
 
 }
 
@@ -54,7 +54,7 @@ nav ul a {
 
 header nav ul span{
 	height:100%;
-	padding:14px;
+	padding:16px;
 	padding-top:18px;
 }
 
