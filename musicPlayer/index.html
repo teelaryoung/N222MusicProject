@@ -17,8 +17,11 @@
 					<span><a href="artists.html"><li>ARTISTS</li></a></span>
 					<span><a href="albums.html"><li>ALBUMS</li></a></span>
 					<span><a href="genre.html"><li>GENRES</li></a></span>
-					<span><a href="search.html"><li>SEARCH</li></a></span>
-				</ul>
+					<a href="search.html"><img id="search" src="images/search.png" alt="Search"/></a>
+					<form>	
+						<input id="searchBox" type="text" name="search" placeholder="Search...">
+					</form>
+				</ul> 
 			</nav>
 		</header>
 
@@ -34,16 +37,34 @@
 			<hr>
 
 			<div id="links">
-				<div id="gLinks" class="linkBox">
-					<!--will hold links to relevant genres-->
+				<div id="artLinks" class="linkBox">
+					<h3>Similar Artists</h3>
+						<ul class="linkList">
+							<li>Artist</li>
+							<li>Artist</li>
+							<li>Artist</li>
+							<li>Artist</li>
+						</ul>
 				</div>
 
 				<div id="albLinks" class="linkBox">
-					<!--will hold links to relevant albums-->
+					<h3>Albums by Artist</h3>
+						<ul class="linkList">
+							<li>Album 1</li>
+							<li>Album 2</li>
+							<li>Album 3</li>
+							<li>Album 4</li>
+						</ul>
 				</div>
 
-				<div id="artLinks" class="linkBox">
-					<!--will hold links to relevant artists-->
+				<div id="genLinks" class="linkBox">
+					<h3>Genres to Try</h3>
+						<ul class="linkList">
+							<li>Rock</li>
+							<li>Hair Metal</li>
+							<li>Alternative</li>
+							<li>New Age</li>
+						</ul>
 				</div>
 			</div>
 
