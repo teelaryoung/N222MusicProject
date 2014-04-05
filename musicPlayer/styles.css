@@ -1,3 +1,8 @@
+*{
+	font-family: arial, sans-serif;
+	color:#FFFFFF;
+}
+
 body {
 	background:#171717;
 }
@@ -9,7 +14,7 @@ body {
 	border:solid;
 	border-width: 5px;
 	border-top:none;
-	border-color: #FFFFFF;
+	border-color: #454545;
 }
 
 header{
@@ -23,13 +28,13 @@ header nav {
 	width:960px;
 	height:60px;
 	margin:0 auto;
-	text-align: center;
-	line-height: 60px
+	text-align: left;
+	line-height: 60px;
 }
 
 header nav ul {
 	list-style:none;
-	word-spacing: 50px;
+	word-spacing: 40px;
 
 }
 
@@ -41,16 +46,16 @@ header nav ul li {
 nav ul a {
 	text-decoration: none;
 	color:#FFFFFF;
-	font-family: arial, sans-serif;
 	font-weight: bolder;
 	letter-spacing: 1px;
-	font-size: 22pt;
+	font-size: 18pt;
+	font-weight: lighter;
 }
 
 header nav ul span{
 	height:100%;
-	padding:10px;
-	padding-top:20px;
+	padding:14px;
+	padding-top:18px;
 }
 
 header nav ul span:hover {
@@ -73,6 +78,90 @@ hr {
 	width:98%;
 	margin: 0 auto;
 	height:5px;
-	background:#FFFFFF;
+	background: #454545;
 	margin-top:100px;
+	border-color:  #454545;
+}
+
+#search {
+	float:right;
+	position:relative;
+	width:22px;
+	height:22px;
+	overflow: hidden;
+	border-radius: 2px;
+	margin:20px 40px 0 10px;
+
+}
+
+form {
+	position: relative;
+	float:right;
+}
+
+#links {
+	width:100%;
+	height:300px;
+}
+
+.linkBox {
+	width:27%;
+	height:200px;
+}
+
+.linkBox h3 {
+	color:#727272;
+	font-weight: lighter;
+}
+
+.linkList {
+	list-style: none;
+	line-height: 25px;
+	text-indent: none;
+
+}
+
+.linkList li {
+	letter-spacing: 1px;
+	font-weight: lighter;
+}
+
+.linkList li:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#artLinks {
+	position:relative;
+	float:left;
+	margin:50px 30px 50px 90px;
+}
+
+#albLinks {
+	position:relative;
+	float:left;
+	margin:50px 0px 50px 20px;
+}
+
+#genLinks {
+	position:relative;
+	float:right;
+	margin:50px 0px 50px 30px;
+}
+
+#results {
+	margin: 0 0 0 60px;
+}
+
+footer {
+	text-align: center;
+	width:100%;
+	height:20px;
+	line-height: 20px;
+	background:#454545;
+	color:#FFFFFF;
+	margin-top: 40px;
+	word-spacing: 5px;
+	letter-spacing: 1px;
+	font-weight: lighter;
 }
