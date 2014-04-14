@@ -169,3 +169,36 @@ footer {
 	letter-spacing: 1px;
 	font-weight: lighter;
 }
+
+#artistList{
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 20px;
+	position: relative;
+	top: 30px;
+}
+
+.resultTable {
+    margin: 0 auto;
+	position: relative;
+	top: 130px;
+	right: 70px;
+}
+
+#title {
+	position: relative;
+	top: 30px;
+	left: 20px;
+}
+
+.artists{
+	margin-top: 20px;
+}
+
+#albumTable{
+	margin: 20px;
+	}
+#albumList {
+	position: relative;
+	left: 225px;
+}
