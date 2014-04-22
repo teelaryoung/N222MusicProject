@@ -195,7 +195,19 @@ footer {
 	margin-top: 20px;
 }
 
-#albumTable{
+#albumTable1{
+	margin: 20px;
+	}
+#albumTable2{
+	margin: 20px;
+	}
+#albumTable3{
+	margin: 20px;
+	}
+#albumTable4{
+	margin: 20px;
+	}
+#albumTable5{
 	margin: 20px;
 	}
 #albumList {
