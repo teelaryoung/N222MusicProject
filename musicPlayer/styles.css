@@ -214,3 +214,11 @@ footer {
 	position: relative;
 	left: 225px;
 }
+.resultTable{
+	text-align: center;
+	vertical-align: top;
+}
+#return {
+	border: 2px;
+	color: #999;
+}
