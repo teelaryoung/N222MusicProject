@@ -1,0 +1,83 @@
+{
+	"genres": ["Hip-Hop", "Country", "Dubstep", "Rock", "Classic Rock"],
+
+	"albums": 
+		{
+			"id": 1,
+			"title": "Good Kid Maad City",
+			"artist": "Kendrick Lamar",
+			"date": "2012",
+			"genre": "Hip-Hop",
+			"tracks": ["The Recipe",
+						"Backseat Freestyle",
+						"m.A.A.d City",
+						"Money Trees",
+						"Poetic Justice",
+						"A.D.H.D"
+						]
+		},
+		{
+			"id": 2,
+			"title": "Doin' My Thing",
+			"artist": "Luke Bryan",
+			"date": "2009",
+			"genre": "Country",
+			"tracks": ["Rain Is a Good Thing",
+						"Doin' My Thing",
+						"Do I",
+						"What Country Is",
+						"Someone Else Calling You Baby",
+						"Welcome to the Farm"
+						]
+		},
+		{
+			"id": 3,
+			"title": "Minutes to Midnight",
+			"artist": "Linkin Park",
+			"date": "2007",
+			"genre": "Rock",
+			"tracks": ["Bleed it Out",
+						"Shadow of the Day",
+						"What I've Done",
+						"In Pieces",
+						"In Between",
+						"Valentine's Day"
+						]
+		},
+		{
+			"id": 4,
+			"title": "Bangarang",
+			"artist": "Skrillex",
+			"date": "2011",
+			"genre": "Dubstep",
+			"tracks": ["Rock 'n' Roll",
+						"Scary Monsters and Nice Sprites",
+						"Kyoto",
+						"Bangarang",
+						"First of the Year",
+						"Breakin' a Sweat"
+						]
+		},
+		{
+			"id": 5,
+			"title": "Mothership",
+			"artist": "Led Zepplin",
+			"date": "2007",
+			"genre": "Classic Rock",
+			"tracks": ["Ramble On",
+						"Heartbreaker",
+						"Immigrant Song",
+						"Black Dog",
+						"Kashmir",
+						"All My Love"
+						]
+		},
+
+	"artists": ["Kendrick Lamar", "Luke Bryan", "Linkin Park", "Skrillex", "Led Zepplin"],
+
+	"tracks": 
+		[
+			
+		]
+
+}
