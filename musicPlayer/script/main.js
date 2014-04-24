@@ -14,6 +14,14 @@ $(document).ready(function(){
     }
 ];
 
+     $.getJSON("../data.json", function(data){
+
+        for(var i = 0; i < data.artists.length; i++){
+            $("#artistList").append("<li>" + data[i] + "</li>");
+        }
+
+    })
+
 	var description = 'Lorem ipsum dolor blah blah blah blah blah blah blah';
 	$('#player').ttwMusicPlayer(myPlaylist, {
 		autoPlay:false, 

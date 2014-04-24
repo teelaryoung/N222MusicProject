@@ -73,11 +73,11 @@
 						]
 		},
 
-	"artists": ["Kendrick Lamar", "Luke Bryan", "Linkin Park", "Skrillex", "Led Zepplin"],
+	var artists = ["Kendrick Lamar", "Luke Bryan", "Linkin Park", "Skrillex", "Led Zepplin"],
 
 	"tracks": 
 		[
-			
+
 		]
 
 }
