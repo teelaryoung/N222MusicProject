@@ -10,6 +10,10 @@
 						"id": 1,
 						"title": "Good Kid mAAd City",
 						"artist": "Kendrick Lamar",
+						"bio": "Kendrick Lamar Duckworth, known simply as Kendrick Lamar, is an American hip hop recording artist from Compton, 			California. In 2004, Lamar signed to the Carson-based indie record label Top Dawg Entertainment and in 2012, Lamar and the label signed a joint venture deal with Aftermath and Interscope Records. Lamar is also a member of West Coast hip hop supergroup Black Hippy, alongside his label-mates and fellow California-based rappers Schoolboy Q, Jay Rock, and Ab-Soul.",
+						"genre": "Hip Hop",
+						"albums": ["Good Kid mAAd City", "Overly Dedicated", "Section.80", "Youngest Head N**** in Charge"],
+						"image": "images/kendrickAlbum.jpg",
 						"tracks": []
 					},
 
@@ -17,6 +21,10 @@
 						"id": 2,
 						"title": "Doin' my Thing",
 						"artist": "Luke Bryan",
+						"bio": "Luke Bryan (born July 17, 1976) is an American country singer. Bryan began his musical career in the mid-2000s, writing songs for Travis Tritt and Billy Currington. After signing with Capitol Records in Nashville, Tennessee in 2007 with his cousin, Chad Christopher Boyd, he released the album I'll Stay Me, which included the singles All My Friends Say, We Rode in Trucks and Country Man. This is when he blew up and he has been a fast track ever since.",
+						"genre": "Country",
+						"albums": ["I'll Stay Me", "Doin' My Thing", "Tailgates & Tanlines", "Crash My Party"],
+						"image": "images/lukeAlbum.jpg",
 						"tracks": []
 					},
 
@@ -24,6 +32,10 @@
 						"id": 3,
 						"title": "Bangarang",
 						"artist": "Skrillex",
+						"bio": "Sonny John Moore, better known by his stage name Skrillex, is an American electronic musician and singer-songwriter. Growing up in Northeast Los Angeles and in Northern California, Sonny Moore joined the American post-hardcore band From First to Last as the lead singer in 2004, and recorded two studio albums with the band before leaving to pursue a solo career in 2007. He began his first tour as a solo artist in late 2007. After recruiting a new band lineup, Moore joined the Alternative Press Tour to support bands such as All Time Low and The Rocket Summer, and appeared on the cover of Alternative Press annual 100 Bands You Need to Know issue.",
+						"genre": "Dubstep",
+						"albums": ["Recess"],
+						"image": "images/skrillexAlbum.jpg",
 						"tracks": []
 					},
 
@@ -31,6 +43,10 @@
 						"id": 4,
 						"title": "Minutes to Midnight",
 						"artist": "Linkin Park",
+						"bio": "Linkin Park is an American rock band from Agoura Hills, California. Formed in 1996, the band rose to international fame with their debut album Hybrid Theory, which was certified Diamond by the RIAA in 2005 and multi-platinum in several other countries. Their following studio album Meteora, continued the band's success, topping the Billboard 200 album chart in 2003, and was followed by extensive touring and charity work around the world. In 2003, MTV2 named Linkin Park the sixth-greatest band of the music video era and the third-best of the new millennium. Billboard ranked Linkin Park No. 19 on the Best Artists of the Decade chart. The band was recently voted as the greatest artist of'00s in a Bracket Madness poll on VH1.",
+						"genre": "Rock",
+						"albums": ["Reanimation", "Meteora", "Hybrid Theory", "Minutes to Midnight", "A Thousand Suns", "Living Things", "Recharged"],
+						"image": "images/linkinAlbum.jpg",
 						"tracks": []
 					},
 
@@ -38,6 +54,10 @@
 						"id": 5,
 						"title": "Mothership",
 						"artist": "Led Zeppelin",
+						"bio": "Led Zeppelin were an English rock band formed in London in 1968. The band consisted of guitarist Jimmy Page, singer Robert Plant, bassist and keyboardist John Paul Jones, and drummer John Bonham. The group's heavy, guitar-driven sound, rooted in blues on their early albums, has drawn them recognition as one of the progenitors of heavy metal, though their unique style drew from a wide variety of influences, including folk music.",
+						"genre": "Classic"
+						"albums": ["Led Zeppelin", "Led Zeppelin II", "Led Zeppelin III", "Led Zeppelin IV", "Houses of Holy", "Physical Graffiti", "Presence", "The Song Remains the Same", "Destroyer", "In Through the Out Door", "Coda", "Led Zepellin Remasters", "Profiled", "How the West was Won", "Mothership"],
+						"image": "images/lukeAlbum.jpg",
 						"tracks": []
 					}
 	]
