@@ -14,11 +14,21 @@ $(document).ready(function(){
     }
 ];
 
-     $.getJSON("../data.json", function(data){
+     $.getJSON("./data.json", function(data){
+        console.log(data);
 
         for(var i = 0; i < data.artists.length; i++){
-            $("#artistList").append("<li>" + data[i] + "</li>");
+            $("#artLinks").append("<li>" + data.artists[i] + "</li>");
         }
+
+        for(var i = 0; i < data.genres.length; i++){
+            $("#genLinks").append("<li>" + data.genres[i] + "</li>");
+        }
+
+        for(var i = 0; i < data.albums.length; i++){
+            $("#albLinks").append("<li>" + data.albums[i].title + "</li>");
+        }
+
 
     })
 
