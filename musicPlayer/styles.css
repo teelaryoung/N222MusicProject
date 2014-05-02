@@ -15,6 +15,7 @@ body {
 	border-width: 5px;
 	border-top:none;
 	border-color: #454545;
+	padding:10px;
 }
 
 header{
@@ -74,6 +75,11 @@ header nav ul span:hover {
 	height:255px;
 }
 
+#Artist {
+	width:100%;
+	min-height: 500px;
+}
+
 hr {
 	width:98%;
 	margin: 0 auto;
@@ -121,7 +127,7 @@ form {
 .linkList {
 	list-style: none;
 	line-height: 25px;
-	text-indent: none;
+	text-indent: -35px;
 
 }
 
@@ -170,14 +176,6 @@ footer {
 	font-weight: lighter;
 }
 
-#artistList{
-	text-align: center;
-	margin-bottom: 50px;
-	font-size: 20px;
-	position: relative;
-	top: 30px;
-}
-
 .resultTable {
     margin: 0 auto;
 	position: relative;
@@ -187,30 +185,109 @@ footer {
 
 #title {
 	position: relative;
-	top: 30px;
+	margin-top: 80px;
 	left: 20px;
 }
 
 .artists{
-	margin-top: 20px;
+	height:400px;
+	width:400px;
+	vertical-align:middle;
+	margin-left:280px;
+	margin-bottom:80px;
+	margin-top:80px;
 }
 
-#albumTable1{
-	margin: 20px;
-	}
-#albumTable2{
-	margin: 20px;
-	}
-#albumTable3{
-	margin: 20px;
-	}
-#albumTable4{
-	margin: 20px;
-	}
-#albumTable5{
-	margin: 20px;
-	}
-#albumList {
-	position: relative;
-	left: 225px;
+.artists h3 {
+	text-align: center;
 }
+
+#lamar {
+	width:100%;
+	height:400px;
+}
+
+#bryan {
+	width:100%;
+	height:400px;
+}
+
+#park {
+	width:100%;
+	height:400px;
+}
+
+#skrillex {
+	width:100%;
+	height:400px;
+}
+
+#zeppelin {
+	width:100%;
+	height:400px;
+}
+
+.leftSide {
+	height:300px;
+	width:300px;
+	float:left;
+	margin-bottom:50px;
+	margin-left:20px;
+}
+
+.rightSide {
+
+	height:500px;
+	width:600px;
+	float:right;
+}
+
+.tracks {
+	padding-right:20px;
+	text-decoration: none;
+	float:right;
+	list-style: none;
+}
+
+.grayTrack {
+	padding-right:20px;
+	text-decoration: none;
+	text-align: right;
+	list-style: none;
+	float:right;
+	height:40px;
+	width:100%;
+	background:#454545;
+	color:#FFFFFF;
+}
+
+.blackTrack {
+	height:50px;
+	width:100%;
+	background:#000000;
+	color:#FFFFFF;
+}
+
+#albumCover {
+	margin-top:30px;
+	float:left;
+	width:300px;
+	height:300px;
+}
+
+#albumCover img {
+	height:300px;
+	width:300px;
+	float:left;
+}
+
+#about {
+	float:right;
+	width:500px;
+	max-height: 400px;
+}
+
+#skrillGenre {
+	margin-top:-380px;
+}
+

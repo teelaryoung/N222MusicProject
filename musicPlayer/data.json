@@ -10,11 +10,42 @@
 						"id": 1,
 						"title": "Good Kid mAAd City",
 						"artist": "Kendrick Lamar",
-						"bio": "Kendrick Lamar Duckworth, known simply as Kendrick Lamar, is an American hip hop recording artist from Compton, 			California. In 2004, Lamar signed to the Carson-based indie record label Top Dawg Entertainment and in 2012, Lamar and the label signed a joint venture deal with Aftermath and Interscope Records. Lamar is also a member of West Coast hip hop supergroup Black Hippy, alongside his label-mates and fellow California-based rappers Schoolboy Q, Jay Rock, and Ab-Soul.",
+						"bio": "Kendrick Lamar Duckworth, known simply as Kendrick Lamar, is an American hip hop recording artist from Compton, California. In 2004, Lamar signed to the Carson-based indie record label Top Dawg Entertainment and in 2012, Lamar and the label signed a joint venture deal with Aftermath and Interscope Records. Lamar is also a member of West Coast hip hop supergroup Black Hippy, alongside his label-mates and fellow California-based rappers Schoolboy Q, Jay Rock, and Ab-Soul.",
 						"genre": "Hip Hop",
 						"albums": ["Good Kid mAAd City", "Overly Dedicated", "Section.80", "Youngest Head N**** in Charge"],
 						"image": "images/kendrickAlbum.jpg",
-						"tracks": []
+						"tracks": [
+									{
+											"name": "Bitch, Don't Kill My Vibe",
+											"file": "music/bitchDontKillMyVibe.mp3" 
+									},
+
+									{
+											"name": "Backseat Freestyle",
+											"file": "music/backseatFreestyle.mp3" 
+									},
+
+									{
+											"name": "m.A.A.d City",
+											"file": "music/maddCity.mp3" 
+									},
+
+									{
+										"name": "Swimming Pools (Drank)",
+										"file": "music/drank.mp3" 
+									},
+
+									{
+										"name": "Money Trees",
+										"file": "music/moneyTrees.mp3" 
+									},
+
+									{
+										"name": "The Recipe",
+										"file": "music/theRecipe.mp3" 
+									}
+
+						]
 					},
 
 					{
@@ -25,7 +56,37 @@
 						"genre": "Country",
 						"albums": ["I'll Stay Me", "Doin' My Thing", "Tailgates & Tanlines", "Crash My Party"],
 						"image": "images/lukeAlbum.jpg",
-						"tracks": []
+						"tracks": [
+										{
+											"name": "",
+											"file": "" 
+										},
+
+										{
+											"name": "",
+											"file": "" 
+										},
+
+										{
+											"name": "",
+											"file": "" 
+										},
+
+										{
+											"name": "",
+											"file": "" 
+										},
+
+										{
+											"name": "",
+											"file": "" 
+										},
+
+										{
+											"name": "",
+											"file": "" 
+										}
+						]
 					},
 
 					{
@@ -36,7 +97,37 @@
 						"genre": "Dubstep",
 						"albums": ["Recess"],
 						"image": "images/skrillexAlbum.jpg",
-						"tracks": []
+						"tracks": [
+										{
+											"name": "",
+											"file": "" 
+										},
+
+										{
+											"name": "",
+											"file": "" 
+										},
+
+										{
+											"name": "",
+											"file": "" 
+										},
+
+										{
+											"name": "",
+											"file": "" 
+										},
+
+										{
+											"name": "",
+											"file": "" 
+										},
+
+										{
+											"name": "",
+											"file": "" 
+										}
+						]
 					},
 
 					{
@@ -47,7 +138,37 @@
 						"genre": "Rock",
 						"albums": ["Reanimation", "Meteora", "Hybrid Theory", "Minutes to Midnight", "A Thousand Suns", "Living Things", "Recharged"],
 						"image": "images/linkinAlbum.jpg",
-						"tracks": []
+						"tracks": [
+										{
+											"name": "",
+											"file": "" 
+										},
+
+										{
+											"name": "",
+											"file": "" 
+										},
+
+										{
+											"name": "",
+											"file": "" 
+										},
+
+										{
+											"name": "",
+											"file": "" 
+										},
+
+										{
+											"name": "",
+											"file": "" 
+										},
+
+										{
+											"name": "",
+											"file": "" 
+										}
+						]
 					},
 
 					{
@@ -55,10 +176,40 @@
 						"title": "Mothership",
 						"artist": "Led Zeppelin",
 						"bio": "Led Zeppelin were an English rock band formed in London in 1968. The band consisted of guitarist Jimmy Page, singer Robert Plant, bassist and keyboardist John Paul Jones, and drummer John Bonham. The group's heavy, guitar-driven sound, rooted in blues on their early albums, has drawn them recognition as one of the progenitors of heavy metal, though their unique style drew from a wide variety of influences, including folk music.",
-						"genre": "Classic"
+						"genre": "Classic",
 						"albums": ["Led Zeppelin", "Led Zeppelin II", "Led Zeppelin III", "Led Zeppelin IV", "Houses of Holy", "Physical Graffiti", "Presence", "The Song Remains the Same", "Destroyer", "In Through the Out Door", "Coda", "Led Zepellin Remasters", "Profiled", "How the West was Won", "Mothership"],
 						"image": "images/lukeAlbum.jpg",
-						"tracks": []
+						"tracks": [
+										{
+											"name": "",
+											"file": "" 
+										},
+
+										{
+											"name": "",
+											"file": "" 
+										},
+
+										{
+											"name": "",
+											"file": "" 
+										},
+
+										{
+											"name": "",
+											"file": "" 
+										},
+
+										{
+											"name": "",
+											"file": "" 
+										},
+
+										{
+											"name": "",
+											"file": "" 
+										}
+						]
 					}
 	]
 

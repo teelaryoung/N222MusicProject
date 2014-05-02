@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Albums</title>
-	<link rel="stylesheet" href="styles.css">
-	<link rel="stylesheet" href="vendor/style.css">
-	<script src="vendor/jquery-2.0.3.min.js"></script>
-	<script type="text/javascript" src="vendor/jquery.jplayer.js"></script>
+    <title>Albums</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="vendor/style.css">
+    <script src="vendor/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="vendor/jquery.jplayer.js"></script>
     <script type="text/javascript" src="vendor/ttw-music-player-min.js"></script>
-	<script src="script/main.js"></script>
+    <script src="script/main.js"></script>
 </head>
 <body>
-		<header>
-			<nav>
-				<ul>
-					<span><a href="index.html"><li>HOME</li></a></span>
-					<span><a href="artists.html"><li>ARTISTS</li></a></span>
-					<span><a href="albums.html"><li>ALBUMS</li></a></span>
-					<span><a href="genre.html"><li>GENRES</li></a></span>
-					<a href="search.html"><img id="search" src="images/search.png" alt="Search"/></a>
-					<form>	
-						<input id="searchBox" type="text" name="search" placeholder="Search by song title">
-					</form>
-				</ul> 
-			</nav>
-		</header>
+        <header>
+            <nav>
+                <ul>
+                    <span><a href="index.html"><li>HOME</li></a></span>
+                    <span><a href="artists.html"><li>ARTISTS</li></a></span>
+                    <span><a href="albums.html"><li>ALBUMS</li></a></span>
+                    <span><a href="genre.html"><li>GENRES</li></a></span>
+                    <a href="search.html"><img id="search" src="images/search.png" alt="Search"/></a>
+                    <form>  
+                        <input id="searchBox" type="text" name="search" placeholder="Search by song title">
+                    </form>
+                </ul> 
+            </nav>
+        </header>
 
 
-	<div id="container">
+    <div id="container">
     
     <div id="title">
     <h2>Albums</h2>
@@ -34,169 +34,77 @@
     <br/>
     </div>
     
-    	<div id="albumList">
+        <div id="albumList">
         
         <div id="lamar">
         
-        <h3>Good Kid Maad City by: <a href="artistResult.html"> Kendrick Lamar </a></h3>
+        <h3>Good Kid Maad City by: <a href="kendrickResult.html"> Kendrick Lamar </a></h3>
         
-        	<table cellpadding="5" border="1"  align="center" id='albumTable1'>
             
-            	<tr>
-          			<td rowspan="8" style="vertical-align: top" width="200" >
-					<img src="images/kendrickAlbum.jpg"  height="300px" width="300px"/>
-         			 </td>
-                     <th>Track Listing</th>
-        		</tr>
-                
-                <tr>
-                <td>Track 1</td>
-                </tr>
-                
-                <tr>
-                <td>Track 2</td>
-                </tr>
-                
-                <tr>
-                <td>Track 3</td>
-                </tr>
-                
-                <tr>
-                <td>Track 4</td>
-                </tr>
-            
-            </table>
+                    <div class="leftSide"><img src="images/kendrickAlbum.jpg"  height="300px" width="300px"/></div>
+
+                    <div class="rightSide">
+                        <ul class="tracks" id="kenTracks">
+                        </ul>
+                    </div>
+                     
             </div>
             
             <div id="bryan">
-            <h3>Doin' My Thing by: <a href="artistResult.html"> Luke Bryan </a></h3>
+            <h3>Doin' My Thing by: <a href="bryanResult.html"> Luke Bryan </a></h3>
             
-            <table cellpadding="5" border="1"  align="center" id='albumTable2'>
-            
-            	<tr>
-          			<td rowspan="8" style="vertical-align: top" width="200" >
-					<img src="images/lukeAlbum.jpg"  height="300px" width="300px"/>
-         			 </td>
-                     <th>Track Listing</th>
-        		</tr>
-                
-                <tr>
-                <td>Track 1</td>
-                </tr>
-                
-                <tr>
-                <td>Track 2</td>
-                </tr>
-                
-                <tr>
-                <td>Track 3</td>
-                </tr>
-                
-                <tr>
-                <td>Track 4</td>
-                </tr>
-            
-            </table>
+            <div class="leftSide"><img src="images/lukeAlbum.jpg"  height="300px" width="300px"/></div>
+
+                    <div class="rightSide">
+                        <ul class="tracks">
+                        </ul>
+                    </div>
+                    
             </div>
             
             <div id="park">
             
-            <h3>Minutes to Midnight by: <a href="artistResult.html"> Linkin Park </a></h3>
+            <h3>Minutes to Midnight by: <a href="linkinResult.html"> Linkin Park </a></h3>
             
-            <table cellpadding="5" border="1"  align="center" id='albumTable3'>
+            <div class="leftSide"><img src="images/linkinAlbum.jpg"  height="300px" width="300px"/></div>
             
-            	<tr>
-          			<td rowspan="8" style="vertical-align: top" width="200" >
-					<img src="images/linkinAlbum.jpg"  height="300px" width="300px"/>
-         			 </td>
-                     <th>Track Listing</th>
-        		</tr>
-                
-                <tr>
-                <td>Track 1</td>
-                </tr>
-                
-                <tr>
-                <td>Track 2</td>
-                </tr>
-                
-                <tr>
-                <td>Track 3</td>
-                </tr>
-                
-                <tr>
-                <td>Track 4</td>
-                </tr>
-            
-            </table>
+                    <div class="rightSide">
+                        <ul class="tracks">
+                        </ul>
+                    </div>
+                    
+                    
             
             </div>
             
-            <div id="skrill">
+            <div id="skrillex">
             
-            <h3>Scary Monsters and Nice Sprites by: <a href="artistResult.html"> Skrillex </a></h3>
+            <h3>Scary Monsters and Nice Sprites by: <a href="skrillResult.html"> Skrillex </a></h3>
             
-            <table cellpadding="5" border="1"  align="center" id='albumTable4'>
+            <div class="leftSide"><img src="images/skrillexAlbum.jpg"  height="300px" width="300px"/></div>
             
-            	<tr>
-          			<td rowspan="8" style="vertical-align: top" width="200" >
-					<img src="images/skrillexAlbum.jpg"  height="300px" width="300px"/>
-         			 </td>
-                     <th>Track Listing</th>
-        		</tr>
-                
-                <tr>
-                <td>Track 1</td>
-                </tr>
-                
-                <tr>
-                <td>Track 2</td>
-                </tr>
-                
-                <tr>
-                <td>Track 3</td>
-                </tr>
-                
-                <tr>
-                <td>Track 4</td>
-                </tr>
-            
-            </table>
+                    <div class="rightSide">
+                        <ul class="tracks">
+                        </ul>
+                    </div>
+                    
             </div>
             
             <div id="zeppelin">
-            <h3>Mothership by: <a href="artistResult.html"> Led Zeppelin </a></h3>
+            <h3>Mothership by: <a href="ledResult.html"> Led Zeppelin </a></h3>
             
-            <table cellpadding="5" border="1"  align="center" id='albumTable5'>
+            <div class="leftSide"><img src="images/ledAlbum.jpg"  height="300px" width="300px"/></div>
             
-            	<tr>
-          			<td rowspan="8" style="vertical-align: top" width="200" >
-					<img src="images/ledAlbum.jpg"  height="300px" width="300px"/>
-         			 </td>
-                     <th>Track Listing</th>
-        		</tr>
-                
-                <tr>
-                <td>Track 1</td>
-                </tr>
-                
-                <tr>
-                <td>Track 2</td>
-                </tr>
-                
-                <tr>
-                <td>Track 3</td>
-                </tr>
-                
-                <tr>
-                <td>Track 4</td>
-                </tr>
-            
-            </table>
+                    <div class="rightSide">
+                        <ul class="tracks">
+                        </ul>
+                    </div>
+                    
+                     
                </div>
         </div>
 
-	</div>
+    </div>
     
 <footer>&copy; Tyler Young &amp; Luke Cox 2014</footer>
 
