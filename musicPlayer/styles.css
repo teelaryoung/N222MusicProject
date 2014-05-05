@@ -7,9 +7,14 @@ body {
 	background:#171717;
 }
 
+#musicPlayer {
+	width:420px;
+	margin:0 auto;
+}
+
 #container{
 	width:960px;
-	min-height:710px;
+	min-height:850px;
 	margin:0 auto;
 	border:solid;
 	border-width: 5px;
@@ -25,49 +30,75 @@ header{
 	clear:both;
 }
 
-header nav {
-	width:960px;
-	height:60px;
-	margin:0 auto;
-	text-align: left;
-	line-height: 60px;
-}
-
-header nav ul {
-	list-style:none;
-	word-spacing: 35px;
-
-}
-
-header nav ul li {
-	display: inline;
-
-}
-
-nav ul a {
-	text-decoration: none;
-	color:#FFFFFF;
-	font-weight: bolder;
-	letter-spacing: 1px;
+nav {
+	height:80px;
+	background: #454545;
+	display:inline;
 	font-size: 18pt;
-	font-weight: lighter;
+	padding:10px;
 }
 
-header nav ul span{
-	height:100%;
-	padding:16px;
-	padding-top:18px;
+nav span {
+	padding:20px 15px 20px 15px;
 }
 
-header nav ul span:hover {
-	border-top:solid;
-	border-bottom:solid;
-	border-width: 4px;
-	border-color: #FFFFFF;
+nav span:hover {
+	background: #171717
 }
+
+nav span a {
+	text-decoration: none;
+}
+
+#artists,
+#albums,
+#genres,
+#results {
+	visibility: hidden;
+}
+
+
+
+
+#artists,
+#albums,
+#genres{
+	position:absolute;
+	top:145px;
+	width:450px;
+	margin-left:5px;
+}
+
+
+
+
+.accordion {
+	margin:0 auto;
+}
+
+
 
 #content{
-	padding-top:100px;
+	float:left;
+	width:48%;
+	overflow:hidden;
+	height:800px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border:solid;
+	border-width:5px;
+	border-color:#454545;
+}
+
+#rightContent {
+	min-height:800px;
+	float:right;
+	width:48%;
+	padding-top:10px;
+	padding-bottom:10px;
+	border:solid;
+	border-width:5px;
+	border-color:#454545;
 }
 
 #player {
@@ -89,19 +120,25 @@ hr {
 	border-color:  #454545;
 }
 
+#searchBar {
+	line-height: 60px;
+	width:230px;
+	margin:0 auto;
+}
+
 #search {
+	margin-top:18px;
 	float:right;
 	position:relative;
 	width:22px;
 	height:22px;
 	overflow: hidden;
 	border-radius: 2px;
-	margin:20px 40px 0 10px;
 }
 
 #searchBox {
+	width:200px;
 	color:#000000;
-	padding-left:3px;
 }
 
 form {
@@ -139,24 +176,6 @@ form {
 .linkList li:hover {
 	text-decoration: underline;
 	cursor: pointer;
-}
-
-#artLinks {
-	position:relative;
-	float:left;
-	margin:50px 30px 50px 90px;
-}
-
-#albLinks {
-	position:relative;
-	float:left;
-	margin:50px 0px 50px 20px;
-}
-
-#genLinks {
-	position:relative;
-	float:right;
-	margin:50px 0px 50px 30px;
 }
 
 #results {
@@ -287,7 +306,6 @@ footer {
 	max-height: 400px;
 }
 
-#skrillGenre {
-	margin-top:-380px;
+#skrillBio {
+	margin-top:20px;
 }
-
