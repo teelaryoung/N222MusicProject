@@ -1,7 +1,285 @@
 $(document).ready(function(){
 
+   
+
 $.getJSON("./data.json", function(data){
         console.log(data);
+
+        $("#search").click(function() {
+            if($('#txtSearch').val() == "bitch dont kill my vibe"){
+
+            $("#artists").css("visibility", "hidden");
+            $("#albums").css("visibility", "hidden");
+            $("#genres").css("visibility", "hidden");
+            $("#results").css("visibility", "visible");
+            $("#results").append('<a href="#" class="addKyoto">' + '<li>' + data.albums[0].tracks[0].name + '</li>' + '</a>');
+
+        }
+        if($('#txtSearch').val() == "backseat freestyle"){
+
+            $("#artists").css("visibility", "hidden");
+            $("#albums").css("visibility", "hidden");
+            $("#genres").css("visibility", "hidden");
+            $("#results").css("visibility", "visible");
+            $("#results").append('<a href="#" class="addKyoto">' + '<li>' + data.albums[0].tracks[1].name + '</li>' + '</a>');
+
+        }
+        if($('#txtSearch').val() == "maad city"){
+
+            $("#artists").css("visibility", "hidden");
+            $("#albums").css("visibility", "hidden");
+            $("#genres").css("visibility", "hidden");
+            $("#results").css("visibility", "visible");
+            $("#results").append('<a href="#" class="addKyoto">' + '<li>' + data.albums[0].tracks[2].name + '</li>' + '</a>');
+
+        }
+        if($('#txtSearch').val() == "swimming pools"){
+
+            $("#artists").css("visibility", "hidden");
+            $("#albums").css("visibility", "hidden");
+            $("#genres").css("visibility", "hidden");
+            $("#results").css("visibility", "visible");
+            $("#results").append('<a href="#" class="addKyoto">' + '<li>' + data.albums[0].tracks[3].name + '</li>' + '</a>');
+
+        }
+        if($('#txtSearch').val() == "money trees"){
+
+            $("#artists").css("visibility", "hidden");
+            $("#albums").css("visibility", "hidden");
+            $("#genres").css("visibility", "hidden");
+            $("#results").css("visibility", "visible");
+            $("#results").append('<a href="#" class="addKyoto">' + '<li>' + data.albums[0].tracks[4].name + '</li>' + '</a>');
+
+        }
+        if($('#txtSearch').val() == "the recipe"){
+
+            $("#artists").css("visibility", "hidden");
+            $("#albums").css("visibility", "hidden");
+            $("#genres").css("visibility", "hidden");
+            $("#results").css("visibility", "visible");
+            $("#results").append('<a href="#" class="addKyoto">' + '<li>' + data.albums[0].tracks[5].name + '</li>' + '</a>');
+
+        }
+        if($('#txtSearch').val() == "rain is a good thing"){
+
+            $("#artists").css("visibility", "hidden");
+            $("#albums").css("visibility", "hidden");
+            $("#genres").css("visibility", "hidden");
+            $("#results").css("visibility", "visible");
+            $("#results").append('<a href="#" class="addKyoto">' + '<li>' + data.albums[1].tracks[0].name + '</li>' + '</a>');
+
+        }
+        if($('#txtSearch').val() == "doin my thing"){
+
+            $("#artists").css("visibility", "hidden");
+            $("#albums").css("visibility", "hidden");
+            $("#genres").css("visibility", "hidden");
+            $("#results").css("visibility", "visible");
+            $("#results").append('<a href="#" class="addKyoto">' + '<li>' + data.albums[1].tracks[1].name + '</li>' + '</a>');
+
+        }
+        if($('#txtSearch').val() == "do i"){
+
+            $("#artists").css("visibility", "hidden");
+            $("#albums").css("visibility", "hidden");
+            $("#genres").css("visibility", "hidden");
+            $("#results").css("visibility", "visible");
+            $("#results").append('<a href="#" class="addKyoto">' + '<li>' + data.albums[1].tracks[2].name + '</li>' + '</a>');
+
+        }
+        if($('#txtSearch').val() == "what country is"){
+
+            $("#artists").css("visibility", "hidden");
+            $("#albums").css("visibility", "hidden");
+            $("#genres").css("visibility", "hidden");
+            $("#results").css("visibility", "visible");
+            $("#results").append('<a href="#" class="addKyoto">' + '<li>' + data.albums[1].tracks[3].name + '</li>' + '</a>');
+
+        }
+        if($('#txtSearch').val() == "someone else callin you baby"){
+
+            $("#artists").css("visibility", "hidden");
+            $("#albums").css("visibility", "hidden");
+            $("#genres").css("visibility", "hidden");
+            $("#results").css("visibility", "visible");
+            $("#results").append('<a href="#" class="addKyoto">' + '<li>' + data.albums[1].tracks[4].name + '</li>' + '</a>');
+
+        }
+        if($('#txtSearch').val() == "welcome to the farm"){
+
+            $("#artists").css("visibility", "hidden");
+            $("#albums").css("visibility", "hidden");
+            $("#genres").css("visibility", "hidden");
+            $("#results").css("visibility", "visible");
+            $("#results").append('<a href="#" class="addKyoto">' + '<li>' + data.albums[1].tracks[5].name + '</li>' + '</a>');
+
+        }
+        if($('#txtSearch').val() == "right in"){
+
+            $("#artists").css("visibility", "hidden");
+            $("#albums").css("visibility", "hidden");
+            $("#genres").css("visibility", "hidden");
+            $("#results").css("visibility", "visible");
+            $("#results").append('<a href="#" class="addKyoto">' + '<li>' + data.albums[2].tracks[0].name + '</li>' + '</a>');
+
+        }
+        if($('#txtSearch').val() == "bangarang"){
+
+            $("#artists").css("visibility", "hidden");
+            $("#albums").css("visibility", "hidden");
+            $("#genres").css("visibility", "hidden");
+            $("#results").css("visibility", "visible");
+            $("#results").append('<a href="#" class="addKyoto">' + '<li>' + data.albums[2].tracks[1].name + '</li>' + '</a>');
+
+        }
+        if($('#txtSearch').val() == "breakin a sweat"){
+
+            $("#artists").css("visibility", "hidden");
+            $("#albums").css("visibility", "hidden");
+            $("#genres").css("visibility", "hidden");
+            $("#results").css("visibility", "visible");
+            $("#results").append('<a href="#" class="addKyoto">' + '<li>' + data.albums[2].tracks[2].name + '</li>' + '</a>');
+
+        }
+        if($('#txtSearch').val() == "the devils den"){
+
+            $("#artists").css("visibility", "hidden");
+            $("#albums").css("visibility", "hidden");
+            $("#genres").css("visibility", "hidden");
+            $("#results").css("visibility", "visible");
+            $("#results").append('<a href="#" class="addKyoto">' + '<li>' + data.albums[2].tracks[3].name + '</li>' + '</a>');
+
+        }
+        if($('#txtSearch').val() == "kyoto"){
+
+            $("#artists").css("visibility", "hidden");
+            $("#albums").css("visibility", "hidden");
+            $("#genres").css("visibility", "hidden");
+            $("#results").css("visibility", "visible");
+            $("#results").append('<a href="#" class="addKyoto">' + '<li>' + data.albums[2].tracks[4].name + '</li>' + '</a>');
+
+        }
+        if($('#txtSearch').val() == "summit"){
+
+            $("#artists").css("visibility", "hidden");
+            $("#albums").css("visibility", "hidden");
+            $("#genres").css("visibility", "hidden");
+            $("#results").css("visibility", "visible");
+            $("#results").append('<a href="#" class="addKyoto">' + '<li>' + data.albums[2].tracks[5].name + '</li>' + '</a>');
+
+        }
+        if($('#txtSearch').val() == "wake"){
+
+            $("#artists").css("visibility", "hidden");
+            $("#albums").css("visibility", "hidden");
+            $("#genres").css("visibility", "hidden");
+            $("#results").css("visibility", "visible");
+            $("#results").append('<a href="#" class="addKyoto">' + '<li>' + data.albums[3].tracks[0].name + '</li>' + '</a>');
+
+        }
+        if($('#txtSearch').val() == "bleed it out"){
+
+            $("#artists").css("visibility", "hidden");
+            $("#albums").css("visibility", "hidden");
+            $("#genres").css("visibility", "hidden");
+            $("#results").css("visibility", "visible");
+            $("#results").append('<a href="#" class="addKyoto">' + '<li>' + data.albums[3].tracks[1].name + '</li>' + '</a>');
+
+        }
+        if($('#txtSearch').val() == "shadow of the day"){
+
+            $("#artists").css("visibility", "hidden");
+            $("#albums").css("visibility", "hidden");
+            $("#genres").css("visibility", "hidden");
+            $("#results").css("visibility", "visible");
+            $("#results").append('<a href="#" class="addKyoto">' + '<li>' + data.albums[3].tracks[2].name + '</li>' + '</a>');
+
+        }
+        if($('#txtSearch').val() == "what ive done"){
+
+            $("#artists").css("visibility", "hidden");
+            $("#albums").css("visibility", "hidden");
+            $("#genres").css("visibility", "hidden");
+            $("#results").css("visibility", "visible");
+            $("#results").append('<a href="#" class="addKyoto">' + '<li>' + data.albums[3].tracks[3].name + '</li>' + '</a>');
+
+        }
+        if($('#txtSearch').val() == "hands held high"){
+
+            $("#artists").css("visibility", "hidden");
+            $("#albums").css("visibility", "hidden");
+            $("#genres").css("visibility", "hidden");
+            $("#results").css("visibility", "visible");
+            $("#results").append('<a href="#" class="addKyoto">' + '<li>' + data.albums[3].tracks[4].name + '</li>' + '</a>');
+
+        }
+        if($('#txtSearch').val() == "in pieces"){
+
+            $("#artists").css("visibility", "hidden");
+            $("#albums").css("visibility", "hidden");
+            $("#genres").css("visibility", "hidden");
+            $("#results").css("visibility", "visible");
+            $("#results").append('<a href="#" class="addKyoto">' + '<li>' + data.albums[3].tracks[5].name + '</li>' + '</a>');
+
+        }
+        if($('#txtSearch').val() == "dazed and confused"){
+
+            $("#artists").css("visibility", "hidden");
+            $("#albums").css("visibility", "hidden");
+            $("#genres").css("visibility", "hidden");
+            $("#results").css("visibility", "visible");
+            $("#results").append('<a href="#" class="addKyoto">' + '<li>' + data.albums[4].tracks[0].name + '</li>' + '</a>');
+
+        }
+        if($('#txtSearch').val() == "whole lotta love"){
+
+            $("#artists").css("visibility", "hidden");
+            $("#albums").css("visibility", "hidden");
+            $("#genres").css("visibility", "hidden");
+            $("#results").css("visibility", "visible");
+            $("#results").append('<a href="#" class="addKyoto">' + '<li>' + data.albums[4].tracks[1].name + '</li>' + '</a>');
+
+        }
+        if($('#txtSearch').val() == "ramble on"){
+
+            $("#artists").css("visibility", "hidden");
+            $("#albums").css("visibility", "hidden");
+            $("#genres").css("visibility", "hidden");
+            $("#results").css("visibility", "visible");
+            $("#results").append('<a href="#" class="addKyoto">' + '<li>' + data.albums[4].tracks[2].name + '</li>' + '</a>');
+
+        }
+        if($('#txtSearch').val() == "immigrant song"){
+
+            $("#artists").css("visibility", "hidden");
+            $("#albums").css("visibility", "hidden");
+            $("#genres").css("visibility", "hidden");
+            $("#results").css("visibility", "visible");
+            $("#results").append('<a href="#" class="addKyoto">' + '<li>' + data.albums[4].tracks[3].name + '</li>' + '</a>');
+
+        }
+        if($('#txtSearch').val() == "black dog"){
+
+            $("#artists").css("visibility", "hidden");
+            $("#albums").css("visibility", "hidden");
+            $("#genres").css("visibility", "hidden");
+            $("#results").css("visibility", "visible");
+            $("#results").append('<a href="#" class="addKyoto">' + '<li>' + data.albums[4].tracks[4].name + '</li>' + '</a>');
+
+        }
+       
+
+        if($('#txtSearch').val() == "stairway to heaven"){
+
+            $("#artists").css("visibility", "hidden");
+            $("#albums").css("visibility", "hidden");
+            $("#genres").css("visibility", "hidden");
+            $("#results").css("visibility", "visible");
+            $("#results").append('<a href="#" class="addStairway">' + '<li>' + data.albums[4].tracks[5].name + '</li>' + '</a>');
+
+        }
+
+    });
 
     var myPlaylist = new jPlayerPlaylist({
         jPlayer: "#jquery_jplayer_1",

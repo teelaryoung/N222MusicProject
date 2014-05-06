@@ -8,9 +8,11 @@
 	<link type="text/css" href="skin/blue.monday/jplayer.blue.monday.css" rel="stylesheet" />
 	<script src="vendor/jquery-2.0.3.min.js"></script>
 	<script src="vendor/jquery-ui-1.10.4.custom.min.js"></script>
+	<script src="vendor/underscore.min.js"></script>
 	<script type="text/javascript" src="vendor/jquery.jplayer.js"></script>
 	<script type="text/javascript" src="vendor/jplayer.playlist.min.js"></script>
     <script type="text/javascript" src="vendor/ttw-music-player-min.js"></script>
+    <script type="text/javascript" src="vendor/quicksearch.js"></script>
 	<script src="script/main.js"></script>
 
 	<script>
@@ -24,10 +26,9 @@
 <body>
 		<header>
 			<div id="searchBar">
-				<a href="search.html"><img id="search" src="images/search.png" alt="Search"/></a>
-				<form>	
-					<input id="searchBox" type="text" name="search" placeholder="Search by song title">
-				</form>
+				<div><input id="txtSearch" placeholder="Title Search..."/> 
+							<input id="search" type="button" value="Search">
+							</div>
 			</div>
 		</header>
 

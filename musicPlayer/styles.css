@@ -62,12 +62,14 @@ nav span a {
 
 #artists,
 #albums,
-#genres{
+#genres,
+#results{
 	position:absolute;
 	top:145px;
 	width:450px;
 	margin-left:5px;
 }
+
 
 .artistImg {
 	height:75px;
@@ -133,14 +135,14 @@ hr {
 	margin-top:18px;
 	float:right;
 	position:relative;
-	width:22px;
-	height:22px;
+	width:55px;
+	height:25px;
 	overflow: hidden;
 	border-radius: 2px;
 }
 
-#searchBox {
-	width:200px;
+#txtSearch {
+	width:150px;
 	color:#000000;
 }
 
