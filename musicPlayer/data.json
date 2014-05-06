@@ -61,33 +61,33 @@
 						"image": "images/lukeAlbum.jpg",
 						"tracks": [
 										{
-											"name": "",
-											"file": "" 
+											"name": "Rain is a Good Thing",
+											"file": "music/rain.mp3" 
 										},
 
 										{
-											"name": "",
-											"file": "" 
+											"name": "Doin' My Thing",
+											"file": "music/doinMyThing.mp3" 
 										},
 
 										{
-											"name": "",
-											"file": "" 
+											"name": "Do I",
+											"file": "music/doI.mp3" 
 										},
 
 										{
-											"name": "",
-											"file": "" 
+											"name": "What Country Is",
+											"file": "music/whatCountryIs.mp3" 
 										},
 
 										{
-											"name": "",
-											"file": "" 
+											"name": "Someone Else Callin' You Baby",
+											"file": "music/someoneElse.mp3" 
 										},
 
 										{
-											"name": "",
-											"file": "" 
+											"name": "Welcome to the Farm",
+											"file": "music/theFarm.mp3" 
 										}
 						]
 					},
@@ -103,33 +103,33 @@
 						"image": "images/skrillexAlbum.jpg",
 						"tracks": [
 										{
-											"name": "",
-											"file": "" 
+											"name": "Right In",
+											"file": "music/rightIn.mp3" 
 										},
 
 										{
-											"name": "",
-											"file": "" 
+											"name": "Bangarang",
+											"file": "music/bangarang.mp3" 
 										},
 
 										{
-											"name": "",
-											"file": "" 
+											"name": "Breakin' A Sweat",
+											"file": "music/breakinASweat.mp3" 
 										},
 
 										{
-											"name": "",
-											"file": "" 
+											"name": "The Devils' Den",
+											"file": "music/devilsDen.mp3" 
 										},
 
 										{
-											"name": "",
-											"file": "" 
+											"name": "Kyoto",
+											"file": "music/kyoto.mp3" 
 										},
 
 										{
-											"name": "",
-											"file": "" 
+											"name": "Summit",
+											"file": "music/summit.mp3" 
 										}
 						]
 					},
@@ -145,33 +145,33 @@
 						"image": "images/linkinAlbum.jpg",
 						"tracks": [
 										{
-											"name": "",
-											"file": "" 
+											"name": "Wake",
+											"file": "music/wake.mp3" 
 										},
 
 										{
-											"name": "",
-											"file": "" 
+											"name": "Bleed It Out",
+											"file": "music/bleedItOut.mp3" 
 										},
 
 										{
-											"name": "",
-											"file": "" 
+											"name": "Shadow Of The Day",
+											"file": "music/shadowDay.mp3" 
 										},
 
 										{
-											"name": "",
-											"file": "" 
+											"name": "What I've Done",
+											"file": "music/whatIveDone.mp3" 
 										},
 
 										{
-											"name": "",
-											"file": "" 
+											"name": "Hands Held High",
+											"file": "music/handsHeldHigh.mp3" 
 										},
 
 										{
-											"name": "",
-											"file": "" 
+											"name": "In Pieces",
+											"file": "music/inPieces.mp3" 
 										}
 						]
 					},
@@ -187,33 +187,33 @@
 						"image": "images/lukeAlbum.jpg",
 						"tracks": [
 										{
-											"name": "",
-											"file": "" 
+											"name": "Dazed and Confused",
+											"file": "music/dazedConfused.mp3" 
 										},
 
 										{
-											"name": "",
-											"file": "" 
+											"name": "Whole Lotta Love",
+											"file": "music/wholeLottaLove.mp3" 
 										},
 
 										{
-											"name": "",
-											"file": "" 
+											"name": "Ramble On",
+											"file": "music/rambleOn.mp3" 
 										},
 
 										{
-											"name": "",
-											"file": "" 
+											"name": "Immigrant Song",
+											"file": "music/immigrantSong.mp3" 
 										},
 
 										{
-											"name": "",
-											"file": "" 
+											"name": "Black Dog",
+											"file": "music/blackDog.mp3" 
 										},
 
 										{
-											"name": "",
-											"file": "" 
+											"name": "Stairway To Heaven",
+											"file": "music/stairwayToHeaven.mp3" 
 										}
 						]
 					}
